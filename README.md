@@ -37,6 +37,7 @@ tarunp@Blr-Tarunp:~/aws-instance-with-ELB$ terraform plan -var 'ssh_key_pair=<KE
 
 If everything looks good, then apply your changes.
 
+## Terraform apply
 ```
 tarunp@Blr-Tarunp:~/aws-instance-with-ELB$ terraform apply -var 'ssh_key_pair=<KEY-PAIR-NAME>'
 ```
