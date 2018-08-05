@@ -42,4 +42,6 @@ If everything looks good, then apply your changes.
 tarunp@Blr-Tarunp:~/aws-instance-with-ELB$ terraform apply -var 'ssh_key_pair=<KEY-PAIR-NAME>'
 ```
 
+### Verify ELB output after a while. 
+![elb output](https://user-images.githubusercontent.com/38158144/43685165-694298d6-98cb-11e8-8c07-e2b079eb74ab.png)
 * Note: You need to wait for sometime before you hit the ELB as it might take a while to register ec2 instance.
