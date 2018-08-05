@@ -30,8 +30,10 @@ To verify the setup configuration.
 tarunp@Blr-Tarunp:~/aws-instance-with-ELB$ terraform plan -var 'ssh_key_pair=<KEY-PAIR-NAME>' or terraform apply
 ```
 
-If everything looks good, then we can go ahead and actually apply changes.
+If everything looks good, then apply your changes.
 
 ```
 tarunp@Blr-Tarunp:~/aws-instance-with-ELB$ terraform apply -var 'ssh_key_pair=<KEY-PAIR-NAME>'
 ```
+
+* Note: You need to wait for sometime before you hit the ELB as it might take a while to register ec2 instance.
