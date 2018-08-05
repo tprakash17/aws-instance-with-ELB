@@ -1,5 +1,11 @@
-# Introduction
-This is terraform project which creates AWS stack including ELB, EC2 instance with supplied USER_DATA (i.e shell script to start nginx docker container with custom default page). Stack uses default VPC, subnet and security group to keep the configuration simple. This setup is eligible to be used with AWS free tier.  
+# Introduction and setup info
+This is terraform project which creates AWS stack including ELB, EC2 instance with supplied USER_DATA (i.e shell script to start nginx docker container with custom default page). Stack uses default VPC, subnet and security group to keep the configuration simple. 
+
+* AMI - ami-0dc82b70
+* Instance Type- t2.micro instance
+* ELB 
+* Default VPC, subnet, security group
+
 
 ## Requirements
 * AWS cli is configured on local system with sufficient permissions. EC2FullPermission should be OK for this. This is required for terraform to have permission to create AWS resources.
