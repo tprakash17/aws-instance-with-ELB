@@ -8,8 +8,8 @@ This is terraform project which creates AWS stack including ELB, EC2 instance wi
 
 
 ## Requirements
-* AWS cli is configured on local system with sufficient permissions. EC2FullPermission should be OK for this. This is required for terraform to have permission to create AWS resources.
-* Generate ssh keypair in AWS from console or use existing one if you have.
+* Install AWS cli and configure it with required iam permission. EC2FullPermission should be OK for this.
+* Generate ssh keypair in AWS from console or use existing one if you have. This you will specify at terraform run time.
 * Install TERRAFORM
 
 ## Clone Repository
