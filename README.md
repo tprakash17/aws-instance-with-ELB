@@ -4,7 +4,6 @@ This is terraform project which creates AWS stack including ELB, EC2 instance wi
 * AMI - ami-0dc82b70
 * Instance Type- t2.micro instance
 * ELB 
-* Default VPC, subnet, security group
 
 
 ## Requirements
